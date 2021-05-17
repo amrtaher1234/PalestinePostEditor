@@ -6,10 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Palestine Post Editor</title>
+  <meta name="description"
+    content="A website that is made mainly to support the Palestine cause against what is happening from the Israeli oppresors. It allows users to type a post and convert it so social media applications like facebook won't delete because they are actually baised against Palestine and against what is right!" />
+  <meta name="og:image" content="assets/palestine.png" />
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="utils.css" />
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/logo.png" sizes="16x16">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
   <script src="globals.js"></script>
   <script src="post-converter.js"></script>
   <script src="index.js"></script>
@@ -33,10 +38,11 @@
     <div>
       <h3></h3>
     </div>
-    <p class="bold">Type your post below to convert it so facebook won't delete it if it detects words related to <span class="palestine">Palestine</span></p>
-    <textarea  rows="8" multiple class="post"></textarea>
+    <p class="bold">Type your post below to convert it so social media websites won't delete it if it detects words
+      related to <span class="palestine">Palestine</span></p>
+    <textarea rows="8" multiple class="post"></textarea>
     <button id="convert-btn" class="convert-btn">Convert</button>
-    <textarea rows="4" multiple class="post-output" disabled> </textarea>
+    <textarea rows="8" multiple class="post-output" disabled> </textarea>
   </main>
 </body>
 
