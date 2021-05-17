@@ -4,5 +4,19 @@ document.addEventListener("DOMContentLoaded", function () {
     const convertedPost = postConverter(post);
     document.querySelector("textarea.post-output").textContent = convertedPost;
     document.querySelector("textarea.post-output").value = convertedPost;
+    enableCopyButton();
   });
 });
+
+function enableCopyButton() {
+  document.getElementById('copy-btn').disabled = false;
+}
+function copyPost() {
+  const dummy = document.createElement("textarea");
+  document.body.appendChild(dummy);
+  const text = document.getElementById('post-output').value;
+  dummy.value = text;
+  dummy.select();
+  document.execCommand("copy");
+  document.body.removeChild(dummy);
+}
