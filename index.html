@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ar" style="min-width: 500px; max-width: 100%">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Palestine Post Editor</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="utils.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="globals.js"></script>
+  <script src="post-converter.js"></script>
+  <script src="index.js"></script>
+</head>
+
+<body>
+  <main>
+    <header>
+      <img src="assets/palestine.png" />
+      <p class="bold">We Stand With <span class="palestine">Palestine</span></p>
+    </header>
+    <div>
+      <p class="bold">Don't forget to stand with <span class="palestine">Palestine</span></p>
+      <ul>
+        <li>Keep the <span class="hashtag">#GhazaUnderAttack</span> hashtag going</li>
+        <li>Stop sharing or commenting on their posts</li>
+        <li>Share your posts that are related to <span class="palestine"></span></li>
+      </ul>
+    </div>
+
+    <div>
+      <h3></h3>
+    </div>
+    <p class="bold">Type your post below to convert it so facebook won't delete it if it detects words related to <span class="palestine">Palestine</span></p>
+    <textarea  rows="8" multiple class="post"></textarea>
+    <button id="convert-btn" class="convert-btn">Convert</button>
+    <textarea rows="4" multiple class="post-output" disabled> </textarea>
+  </main>
+</body>
+
+</html>

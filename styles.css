@@ -1,0 +1,58 @@
+:root {
+    --main-color: #4AD295;
+    --font-size: 14px;
+}
+body {
+    font-family: inter;
+    font-size: var(--font-size);
+}
+main {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+button,textarea {
+    margin-bottom: 10px;
+    display: block;
+    border-radius: 4px;
+    padding: 0;
+}
+button {
+    height: 35px;
+    background-color: var(--main-color);
+    outline: none;
+    color: white;
+    transition: 0.3s all linear;
+    border: 0.5px solid;
+    cursor: pointer;
+    width: 30%;
+}
+button:hover {
+    opacity: 0.7;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+header p {
+    margin: 0;
+}
+header img {
+    height: 25px;
+    margin-right: 8px;
+}
+.palestine {
+    font-weight: 600;
+    color: var(--main-color);
+}
+.hashtag {
+    font-style: italic;
+}
+
+textarea {
+    font-weight: bold;
+    padding: 10px;
+}
