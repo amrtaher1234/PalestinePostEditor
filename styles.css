@@ -6,7 +6,7 @@ body {
     font-family: inter;
     font-size: var(--font-size);
 }
-main {
+form {
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -55,4 +55,12 @@ header img {
 textarea {
     font-weight: bold;
     padding: 10px;
+}
+.copy-btn {
+    background-color: #77acf1;
+}
+.copy-btn:disabled {
+    cursor: not-allowed;
+    pointer-events: none;
+    opacity: 0.7;
 }
