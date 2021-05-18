@@ -14,5 +14,6 @@ const CONVERTED_WORDS = [
 {word: "الصهيانة", convertedWord: "الصهايnة"},
 {word: "التطبيع", convertedWord: "التطbيع"},
 {word: "الاحتلال", convertedWord: "الاحtلال"},
-{word: "الإسرائيلي", convertedWord: "الإسrائيلي"}
+{word: "الإسرائيلي", convertedWord: "الإسrائيلي"},
+{word: 'الفلسطنية', convertedWord: 'الفلsطنية'},
 ]
