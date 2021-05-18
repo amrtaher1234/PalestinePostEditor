@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ar" style="width: 500px; max-width: 100%">
+<html dir="rtl" lang="ar" style="width: 500px; max-width: 100%">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,6 +14,8 @@
   <link rel="icon" href="assets/logo.png" sizes="16x16">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
     rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet">
   <script src="globals.js"></script>
   <script src="post-converter.js"></script>
   <script src="index.js"></script>
@@ -23,26 +25,25 @@
   <form>
     <header>
       <img src="assets/palestine.png" />
-      <p class="bold">We Stand With <span class="palestine">Palestine</span></p>
+      <p class="bold">نحن نقف مع   <span class="palestine">فلسطين</span></p>
     </header>
     <div>
-      <p class="bold">Don't forget to stand with <span class="palestine">Palestine</span></p>
+      <p class="bold">لا تنسي أن تقف مع القضية  <span class="palestine">الفلسطنية</span></p>
       <ul>
-        <li>Keep the <span class="hashtag">#GhazaUnderAttack</span> hashtag going</li>
-        <li>Stop sharing or commenting on their posts</li>
-        <li>Share your posts that are related to <span class="palestine"></span></li>
+        <li>إستمر في نشر <span class="hashtag">GhazaUnderAttack#</span> </li>
+        <li>لا تنشر أو تساعد في نشر منشوراتهم </li>
+        <li>إنشر منشورك المتعلقة   <span class="palestine">بفلسطين</span></li>
       </ul>
     </div>
 
     <div>
       <h3></h3>
     </div>
-    <p class="bold">Type your post below to convert it so social media websites won't delete it if it detects words
-      related to <span class="palestine">Palestine</span></p>
+    <p class="bold">إكتب منشورك بالاسفل   </span></p>
     <textarea rows="8" multiple class="post"></textarea>
-    <button type="button" id="convert-btn" class="btn convert-btn">Convert</button>
+    <button type="button" id="convert-btn" class="btn convert-btn">تحويل</button>
     <textarea rows="8" multiple id="post-output" class="post-output" disabled> </textarea>
-    <button onclick="copyPost()" type="button" disabled id="copy-btn" class="btn copy-btn">Copy</button>
+    <button onclick="copyPost()" type="button" disabled id="copy-btn" class="btn copy-btn">نقل</button>
 
   </form>
 </body>

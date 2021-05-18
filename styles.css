@@ -3,7 +3,7 @@
     --font-size: 14px;
 }
 body {
-    font-family: inter;
+    font-family: Almarai;
     font-size: var(--font-size);
 }
 form {
@@ -43,6 +43,7 @@ header p {
 header img {
     height: 25px;
     margin-right: 8px;
+    margin-left: 8px;
 }
 .palestine {
     font-weight: 600;
