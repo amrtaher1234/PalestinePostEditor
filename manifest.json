@@ -3,7 +3,7 @@
   
     "name": "Palestine Post Editor",
     "description": "An extension that will allow you to convert your Palestine related posts so that facebook won't delete it. #GhazaUnderAttack",
-    "version": "1.0",
+    "version": "1.1",
   
     "browser_action": {
      "default_icon": "assets/palestine.png",
